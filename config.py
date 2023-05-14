@@ -1,9 +1,10 @@
 live_trade = True
 
-coin     = [""]
-# BNB
-quantity = []
-# 0.75
+coin     = ["BNB"]
+quantity = [0.75]
+multiplier_short = [0.75]  # Multiplier for short position
+multiplier_long = [1.2]  # Multiplier for long position
+stop_loss_percentage = [3]
 
 leverage, pair = [], []
 
@@ -23,6 +24,10 @@ add_long_measure = 35
 new_quantity_long_multiplier = 0.30
 takeprofitlong_usd = 0.5
 liquidationpricemarklong_percent = 5
+
+# change long quantity
+quantity_long_sep = 0.99
+quantity_short_sep = 0.25
 
 # short
 add_short_measure = 35
