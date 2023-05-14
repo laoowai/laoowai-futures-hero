@@ -76,4 +76,4 @@ def check_PNL(hero, leverage, positionSide):
 
     return round(total_pnl, 2)
 
-backtest() 
+backtest()
