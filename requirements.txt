@@ -5,3 +5,4 @@ requests
 termcolor
 python-binance
 cryptography==3.4.6
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
